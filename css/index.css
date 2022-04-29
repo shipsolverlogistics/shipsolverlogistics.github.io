@@ -1,0 +1,65 @@
+:root {
+  --ss-animation-duration: 0.3s;
+
+  --ss-margin-small: 12px;
+  --ss-margin-big: 24px;
+  --ss-padding-small: 12px;
+  --ss-padding-big: 24px;
+
+  --ss-body-color: darkslategray;
+  --ss-font-color: white;
+  --ss-primary-color: rgb(0, 196, 167);
+  --ss-secondary-color: rgb(72, 95, 199);
+
+  --ss-font-size: 1rem;
+  --ss-title-font-size: 2rem;
+  --ss-subtitle-font-size: 1.5rem;
+  --ss-header-font-size: 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: var(--ss-font-color);
+  background-color: var(--ss-body-color);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: var(--ss-font-size);
+  min-height: 100vh;
+}
+
+ul {
+  margin-top: var(--ss-margin-small);
+}
+
+ul li {
+  list-style: outside;
+  margin-left: var(--ss-margin-big);
+}
+
+.body-text {
+  color: var(--ss-font-color);
+}
+
+.ss-title {
+  font-family: "Libre Bodoni", serif;
+  font-size: var(--ss-title-font-size);
+}
+
+.ss-subtitle {
+  font-family: "Libre Bodoni", serif;
+  font-size: var(--ss-subtitle-font-size);
+}
+
+.ss-header {
+  font-family: "Libre Bodoni", serif;
+  font-size: var(--ss-header-font-size);
+}
+
+.ss-transition {
+  moz-transition: all var(--ss-animation-duration) ease-out;
+  -o-transition: all var(--ss-animation-duration) ease-out;
+  -webkit-transition: all var(--ss-animation-duration) ease-out;
+  transition: all var(--ss-animation-duration) ease-out;
+}
