@@ -6,7 +6,7 @@
   --ss-padding-small: 12px;
   --ss-padding-big: 24px;
 
-  --ss-body-color: darkslategray;
+  --ss-body-color: rgb(79, 123, 123);
   --ss-font-color: white;
   --ss-primary-color: rgb(0, 196, 167);
   --ss-secondary-color: rgb(72, 95, 199);
@@ -62,4 +62,10 @@ ul li {
   -o-transition: all var(--ss-animation-duration) ease-out;
   -webkit-transition: all var(--ss-animation-duration) ease-out;
   transition: all var(--ss-animation-duration) ease-out;
+}
+
+.img {
+  height: 100%;
+   width: 100%;
+  object-fit: contain;
 }
