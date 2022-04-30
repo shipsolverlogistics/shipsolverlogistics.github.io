@@ -11,10 +11,10 @@
   --ss-primary-color: rgb(0, 196, 167);
   --ss-secondary-color: rgb(72, 95, 199);
 
-  --ss-font-size: 1rem;
-  --ss-title-font-size: 2rem;
-  --ss-subtitle-font-size: 1.5rem;
-  --ss-header-font-size: 3rem;
+  --ss-sm-font-size: 1rem;
+  --ss-md-font-size: 1.2rem;
+  --ss-lg-font-size: 1.8rem;
+  --ss-xl-font-size: 3rem;
 }
 
 a {
@@ -25,7 +25,7 @@ body {
   color: var(--ss-font-color);
   background-color: var(--ss-body-color);
   font-family: "Source Sans Pro", sans-serif;
-  font-size: var(--ss-font-size);
+  font-size: var(--ss-sm-font-size);
   min-height: 100vh;
 }
 
@@ -38,23 +38,28 @@ ul li {
   margin-left: var(--ss-margin-big);
 }
 
-.body-text {
+.ss-fancy-text {
+  font-family: "Libre Bodoni", serif;
+}
+
+.body-text-color {
   color: var(--ss-font-color);
 }
 
-.ss-title {
-  font-family: "Libre Bodoni", serif;
-  font-size: var(--ss-title-font-size);
+.ss-sm-text {
+  font-size: var(--ss-sm-font-size);
 }
 
-.ss-subtitle {
-  font-family: "Libre Bodoni", serif;
-  font-size: var(--ss-subtitle-font-size);
+.ss-md-text {
+  font-size: var(--ss-md-font-size);
 }
 
-.ss-header {
-  font-family: "Libre Bodoni", serif;
-  font-size: var(--ss-header-font-size);
+.ss-lg-text {
+  font-size: var(--ss-lg-font-size);
+}
+
+.ss-xl-text {
+  font-size: var(--ss-xl-font-size);
 }
 
 .ss-transition {
@@ -66,6 +71,6 @@ ul li {
 
 .img {
   height: 100%;
-   width: 100%;
+  width: 100%;
   object-fit: contain;
 }
