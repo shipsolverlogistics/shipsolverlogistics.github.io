@@ -11,9 +11,9 @@
   --ss-primary-color: rgb(0, 196, 167);
   --ss-secondary-color: rgb(72, 95, 199);
 
-  --ss-sm-font-size: 1rem;
-  --ss-md-font-size: 1.2rem;
-  --ss-lg-font-size: 1.8rem;
+  --ss-sm-font-size: 1.2rem;
+  --ss-md-font-size: 1.5rem;
+  --ss-lg-font-size: 2.5rem;
   --ss-xl-font-size: 3rem;
 }
 
