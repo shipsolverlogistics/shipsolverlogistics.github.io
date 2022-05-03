@@ -1,0 +1,21 @@
+.animate-on-scroll {
+  opacity: 0;
+  -webkit-transform: translateY(4em) rotateZ(-3deg);
+  transform: translateY(4em) rotateZ(-3deg);
+  -webkit-transition: opacity 0.3s 0.25s ease-out,
+    -webkit-transform 1.5s 0.25s cubic-bezier(0, 1, 0.3, 1);
+  transition: opacity 0.3s 0.25s ease-out,
+    -webkit-transform 1.5s 0.25s cubic-bezier(0, 1, 0.3, 1);
+  transition: transform 1.5s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out;
+  transition: transform 1.5s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out,
+    -webkit-transform 1.5s 0.25s cubic-bezier(0, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+.animate-on-scroll-is-visible {
+  opacity: 1;
+  -webkit-transform: rotateZ(0deg);
+  transform: rotateZ(0deg);
+}
